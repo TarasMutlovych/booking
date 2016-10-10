@@ -2,7 +2,9 @@ from os import *
 from selenium import webdriver
 
 
-class WebDriver:
+class WebDriverProvider:
+
+    driver = None
 
     @classmethod
     def set_chrome_driver(cls):
