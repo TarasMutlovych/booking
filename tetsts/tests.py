@@ -23,7 +23,7 @@ class Test(TestCase):
                          (self.FIRTS_NAME, self.LAST_NAME,
                           user_personal_page.get_first_name(), user_personal_page.get_last_name()))
 
-    
+
 
 
 
